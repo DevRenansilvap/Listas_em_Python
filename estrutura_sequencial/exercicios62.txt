@@ -1,0 +1,13 @@
+ALGORITMO:equação_do_segundo_grau
+    DECLARE:
+        A:NUMERICO
+        B:NUMERICO
+        C:NUMERICO
+        
+    CALCULE:
+        DELTA = ((-B)**2 - 4 * A * C)
+
+    SE A = 0:
+        ESCREVA("Não é equação de segundo grau)
+    SE 
+FIM_DO_ALGORITMO

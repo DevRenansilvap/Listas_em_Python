@@ -1,0 +1,14 @@
+ALGORITMO
+    PARA i <- 1 ATE 10 FAÇA:
+    ESCREVA("Digite o valor do indice", i ,":")
+    DECLARE valores[10]:NUMERICO
+    LEIA(valores[i])
+    FIM_PARA
+
+    PARA (valores[i]) FAÇA:
+    SE: (valores[i]) % 2 ==0:
+    ESCREVA("O NUMERO É PAR!!")
+    SENAO:
+    ESCREVA("O NUMERO NÃO É PAR!!!")
+
+FIM _DO_ALGORITMO

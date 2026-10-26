@@ -1,0 +1,17 @@
+ALGORITMO:verificador primos
+    DECLARE num[9] :NUMERICO
+    i: NUMERICO
+    cont_div: NUMERICO
+
+    PARA i <- 0 ATE 9 FAÇA:
+        ESCREVA("DIGITE UM VALOR INTEIRO")
+        LEIA(valores[i])
+        cont_div = 0
+        PARA j ATE valores[i] FAÇA:
+        SE valores[i] % j ==0:
+        cont_div +=1
+    SE cont_div = 2 ENTAO
+    ESCREVA("Numero Primo")
+    ESCREVA("Numero: ",valores[i])
+    ESCREVA("Posicao",i)
+FIM_DO_ALGORITMO

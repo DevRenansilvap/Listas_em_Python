@@ -1,0 +1,27 @@
+ALGORITMO:nota_por_conceito
+    DECLARE:
+        NOTA1:NUMERICO
+        NOTA2:NUMERICO
+        NOTA3:NUMERICO
+
+    ESCREVA('qual a nota 1?)
+    LEIA:(NOTA1)
+    ESCREVA('qual a nota 2?)
+    LEIA:(NOTA2)
+    ESCREVA('qual a nota 3)
+    LEIA:(NOTA3)
+
+    Trab_Lab = 2
+    Aval_Sem = 3
+    Exam_final = 5
+    MP = (NOTA1 * Trab_Lab + NOTA2 * Aval_Sem + NOTA3 * Exam_final)/ (NOTA1 + NOTA2 + NOTA3)
+
+    ESCREVA('sua média ponderada é igual a:',MP)
+
+    SE(MP >= 8 AND <=10 MP )
+    ESCREVA("voce esta no conceito A)
+    SE (MP < 8 AND >=7 )
+    ESCREVA("voce esta no conceito A)
+    
+
+FIM_DO_ALGORITMO

@@ -1,0 +1,24 @@
+ALGORITMOS
+    DECLARE:
+    ALTURA:NUMERICO
+    SEXO:LITERAL
+    PESO:NUMERICO
+
+    ESCREVA("Qual a altura?)
+    LEIA:( ALTURA)
+    ESCREVA("Qual o seu sexo ?)
+    LEIA:(SEXO)
+    ESCREVA("Qual o seu peso?)
+    LEIA:(PESO)
+
+    CALCULE:
+        PESO_HOM((72,7 * ALTURA) - 58)
+    CALCULE:
+        PESO_MUL((62,1* ALTURA) - 44,7)
+
+    SE:SEXO == "HOMEN":
+    ESCREVA("seu peso ideal é:",PESO_HOM)
+    SE NÃO:
+    ESCREVA("seu peso ideal é:",PESO_MUL)
+
+FIM_DO_ALGORITMO

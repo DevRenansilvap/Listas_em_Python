@@ -1,0 +1,20 @@
+ALGORITMO
+    DECLARE:
+        PESO:NUMERICO
+        ALTURA:NUMERICO
+
+    ESCREVA:"qual o seu Peso"
+    LEIA:(peso)
+    ESCREVA:"qual a sua altura"
+    LEIA:(altura)
+
+    IMC = peso / (altura**2)
+
+    ESCREVA:"o seu imc é:",IMC
+
+    SE:(IMC>=25)
+    ENTAO ESCREVA:"excesso de peso"
+    SE:(IMC<= 25)
+    ENTAO ESCREVA:"saldavel"
+
+FIM_DO_ALGORITMO
